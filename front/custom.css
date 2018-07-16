@@ -2,22 +2,20 @@
     position: relative;
     width: 50%;
     margin-top: 30px;
-  }
-  
+  }  
   /* Make the image responsive */
   .container .img {
     max-width: 100%;
     height: auto;
-    
   }
 
-
-  
+  .btn{
+  text-align: center;
+  border-radius:30%;
+  }
   /* Style the button and place it in the middle of the container/image */
   /* row1 */
-  
 
-  
   .container .btn#sensor1-1 {
     position: absolute;
     top: 11%;
@@ -61,8 +59,7 @@
     border: none;
     cursor: pointer;
     border-radius: 50%;
-  }
-  
+  } 
 
   .container  .btn#sensor1-4 {
     position: absolute;
@@ -438,7 +435,6 @@
     border-radius: 50%;
   }
 
-  
   .container  .btn#sensor4-4 {
     position: absolute;
     top: 51%;
@@ -796,6 +792,9 @@
   .container .btn:hover {
     background-color: black;
   }
+
+
+
 
   @media only screen and (max-width:100em){
       body{font-size: 10px;}
